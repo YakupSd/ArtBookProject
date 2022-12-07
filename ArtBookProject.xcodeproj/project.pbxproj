@@ -14,6 +14,8 @@
 		F390BFF6293E0F6000AEF7E0 /* ArtBookProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F390BFF4293E0F6000AEF7E0 /* ArtBookProject.xcdatamodeld */; };
 		F390BFF8293E0F6100AEF7E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F390BFF7293E0F6100AEF7E0 /* Assets.xcassets */; };
 		F390BFFB293E0F6100AEF7E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F390BFF9293E0F6100AEF7E0 /* LaunchScreen.storyboard */; };
+		F390C003293E121000AEF7E0 /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F390C002293E121000AEF7E0 /* DetailsVC.swift */; };
+		F390C005293E1CE800AEF7E0 /* saveimage.png in Resources */ = {isa = PBXBuildFile; fileRef = F390C004293E1CE800AEF7E0 /* saveimage.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		F390BFF7293E0F6100AEF7E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F390BFFA293E0F6100AEF7E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F390BFFC293E0F6100AEF7E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F390C002293E121000AEF7E0 /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
+		F390C004293E1CE800AEF7E0 /* saveimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = saveimage.png; path = ../../../saveimage.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +62,10 @@
 		F390BFEA293E0F6000AEF7E0 /* ArtBookProject */ = {
 			isa = PBXGroup;
 			children = (
+				F390C004293E1CE800AEF7E0 /* saveimage.png */,
 				F390BFEB293E0F6000AEF7E0 /* AppDelegate.swift */,
 				F390BFED293E0F6000AEF7E0 /* SceneDelegate.swift */,
+				F390C002293E121000AEF7E0 /* DetailsVC.swift */,
 				F390BFEF293E0F6000AEF7E0 /* ViewController.swift */,
 				F390BFF1293E0F6000AEF7E0 /* Main.storyboard */,
 				F390BFF7293E0F6100AEF7E0 /* Assets.xcassets */,
@@ -130,6 +136,7 @@
 			files = (
 				F390BFFB293E0F6100AEF7E0 /* LaunchScreen.storyboard in Resources */,
 				F390BFF8293E0F6100AEF7E0 /* Assets.xcassets in Resources */,
+				F390C005293E1CE800AEF7E0 /* saveimage.png in Resources */,
 				F390BFF3293E0F6000AEF7E0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,6 +152,7 @@
 				F390BFF0293E0F6000AEF7E0 /* ViewController.swift in Sources */,
 				F390BFEC293E0F6000AEF7E0 /* AppDelegate.swift in Sources */,
 				F390BFEE293E0F6000AEF7E0 /* SceneDelegate.swift in Sources */,
+				F390C003293E121000AEF7E0 /* DetailsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
